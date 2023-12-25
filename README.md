@@ -1,1 +1,1 @@
-Un projet collectif d'un perçu d'un site evec seulement de l'html et bootstrap.
+Un projet collectif d'un aperçu d'un site avec seulement html et bootstrap.
