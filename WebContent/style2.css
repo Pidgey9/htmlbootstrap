@@ -1,0 +1,205 @@
+@CHARSET "ISO-8859-1";
+
+.tarif{
+    color: #3c454d;
+    font-family: CactusBlack;
+    font-size: 46px;
+    letter-spacing: 3px;
+    line-height: 1.22;
+    font-style: oblique;
+    padding-top: 20px;
+}
+
+.duree{
+	font-family: Gotham;
+    font-weight: bold;
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26px;
+}
+
+.tarif_debut{
+	    font-family: Gotham;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 6px;
+}
+
+ .fi {
+    color: #a0a4a6;
+    font-family: GothamLight;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 32px;
+}
+
+ .composition, .options {
+    margin-left: 0px;
+    padding-left: 30px;
+}
+
+.composition li.location {
+	background-image: url("https://www.fitnesspark.fr/wp-content/uploads/pictos_offres_p23/p23-club-full.svg") ;
+	 background-repeat:no-repeat;
+}
+.composition li.video {
+	background-image: url("https://www.fitnesspark.fr/wp-content/uploads/pictos_offres_p23/p23-vod.svg");
+	background-repeat:no-repeat;
+}
+
+.composition li.homepark {
+	background-image: url("https://www.fitnesspark.fr/wp-content/uploads/pictos_offres_p23/p23-homepark.svg");
+	background-repeat:no-repeat;
+}
+.composition li.app {
+	background-image: url("https://www.fitnesspark.fr/wp-content/uploads/pictos_offres_p23/p23-myfitnesspark.svg");
+	background-repeat:no-repeat;
+}
+
+li.boisson {
+    background-image: url(https://www.fitnesspark.fr/wp-content/uploads/pictos_offres_p23/p23-gobelet.svg);
+    background-repeat:no-repeat;
+}
+ li.hydromassage {
+    background-image: url(https://www.fitnesspark.fr/wp-content/uploads/pictos_offres_p23/Hydromassage_16x16.svg);
+    background-repeat:no-repeat;
+}
+li.plateforme {
+    background-image: url(https://www.fitnesspark.fr/wp-content/uploads/pictos_offres_p23/p23-sismo.svg);
+    background-repeat:no-repeat;
+}
+
+li.balance {
+    background-image: url(https://www.fitnesspark.fr/wp-content/uploads/pictos_offres_p23/Balance-impedancemetre_16x16.svg);
+    background-repeat:no-repeat;
+}
+
+li.coursco {
+    background-image: url(https://www.fitnesspark.fr/wp-content/uploads/pictos_offres_p23/p23-cours-collectifs.svg);
+    background-repeat:no-repeat;
+}
+
+ li.fightpark {
+    background-image: url(https://www.fitnesspark.fr/wp-content/uploads/pictos_offres_p23/p23-fight-park-outline.svg);
+    background-repeat:no-repeat;
+}
+
+li.burningpark {
+    background-image: url(https://www.fitnesspark.fr/wp-content/uploads/pictos_offres_p23/p23-burning-park-outline.svg);
+    background-repeat:no-repeat;
+}
+
+li.cyclepark {
+    background-image: url(https://www.fitnesspark.fr/wp-content/uploads/pictos_offres_p23/p23-cycling-park-outline.svg);
+    background-repeat:no-repeat;
+}
+li.invite {
+    background-image: url(https://www.fitnesspark.fr/wp-content/uploads/pictos_offres_p23/Inviter%20un%20ami_16x16.svg);
+    background-repeat:no-repeat;
+}
+li.coaching {
+    background-image: url(https://www.fitnesspark.fr/wp-content/uploads/pictos_offres_p23/Haltere_16x16.svg);
+    background-repeat:no-repeat;
+}
+
+li.reduction {
+    background-image: url(https://www.fitnesspark.fr/wp-content/uploads/pictos_offres_p23/Boutique_16x16.svg);
+    background-repeat:no-repeat;
+}
+ul{
+	 list-style-type: none;
+}
+ .composition li, .options li {
+    font-family: GothamLight;
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    list-style: none;
+    color: #5b5b5b !important;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+}
+.plus {
+    font-family: Gotham;
+    font-weight: 900;
+    color: #3c454d;
+    font-size: 30px;
+    font-style: oblique;
+    padding-bottom: 15px;
+}
+.options li span {
+    display: block;
+    color: #a0a4a6;
+    font-weight: 500;
+    font-family: GothamLight;
+}
+.options li.boxed {
+    background-color: #f2f2f2;
+    border-left: 3px solid #ffd600;
+    border-radius: 8px;
+    margin: 1rem 0;
+    padding: 16px;
+    color: #3b444b;
+    background-size: 17px 17px;
+    background-position: 10px 15px;
+    padding-left: 40px;
+    margin-right: 30px;
+}
+
+.card {
+    height: 100%;
+        border-radius: 1.25rem !important;
+}
+
+.arx_cta_offre a {
+    padding: 10px 20px 7px 20px;
+    background-color: #ffd600;
+    font-size: 22px;
+    font-family: Cactus!important;
+    font-style: italic;
+    font-weight: 800;
+    letter-spacing: 1px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #000;
+    display: block;
+    margin: 0 20px;
+}
+.arx_cta_offre {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 0px !important;
+}
+h1 {
+    color: #3b444b !important;
+    font-size: 38px !important;
+    line-height: 40px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+}
+
+p {
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: none;
+    color: #3b444b;
+}
+
+h2 {
+    font-size: 25px;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: 100;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
